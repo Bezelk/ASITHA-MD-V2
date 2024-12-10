@@ -4,8 +4,8 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=ij5xGCaS#N630DuheCbjdjfnl9Qad8Z494ePGVj3NIt38sQPkXS0' : process.env.SESSION_ID,
-PREFIX: process.env.PREFIX || '.' ,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=L3pQgAAQ#e-jZ95SdUylFoxGuZb04USDBEwteLHRAR94mjvLBSso' : process.env.SESSION_ID,
+PREFIX: process.env.PREFIX || '$' ,
 ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , Bezel music bot is currently online and running!!*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
